@@ -209,6 +209,7 @@
   align-items: flex-end;
   animation-name: welcome-slide-left;
   animation-duration: 4s;
+  animation-delay: 1s;
   animation-iteration-count: 1;
 }
 @keyframes welcome-slide-left {
@@ -265,6 +266,7 @@
   justify-content: space-evenly;
   animation-name: welcome-slide-right;
   animation-duration: 4s;
+  animation-delay: 0.5s;
   animation-iteration-count: 1;
 }
 @keyframes welcome-slide-right {
