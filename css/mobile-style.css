@@ -17,7 +17,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgb(165, 165, 165);
+  background-color: rgb(124, 124, 124);
   z-index: 1;
   border-bottom-left-radius: 10px;
 }
@@ -39,7 +39,7 @@
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
-  background-color: black;
+  background-color: rgb(36, 36, 36);
   font-family: "Nova Oval";
   color: #7209b7;
   text-shadow: 1.3px 1.3px 2px #7209b7;
@@ -55,7 +55,7 @@
 .hamburger div {
   width: 1.75rem;
   height: 0.2rem;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(36, 36, 36);
   border-radius: 5rem;
 }
 .burger-bottom {
@@ -71,7 +71,6 @@
   height: 20vh;
   display: none;
   position: fixed;
-  animation-name: slide-out;
   animation-name: slide-in;
   animation-duration: 1.5s;
 }
@@ -116,8 +115,8 @@
   width: 100vw;
   height: 5vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding-left: 1rem;
 }
 
 /* welcome */
@@ -129,7 +128,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: white;
+  color: wheat;
 }
 .welcome > p {
   padding-bottom: 0.75rem;
@@ -140,7 +139,7 @@
 .welcome-button {
   width: 2.5rem;
   height: 2.5rem;
-  border: 1px solid white;
+  border: 1px solid wheat;
   border-radius: 10rem;
   display: flex;
   position: absolute;
@@ -168,7 +167,7 @@
   }
 }
 .welcome-button div {
-  background-color: white;
+  background-color: wheat;
   border-radius: 1rem;
 }
 .button-left {
@@ -213,15 +212,15 @@
   align-items: flex-end;
   animation-name: welcome-slide-left;
   animation-duration: 4s;
-  animation-delay: 1s;
+  animation-delay: 0.5s;
   animation-iteration-count: 1;
 }
 @keyframes welcome-slide-left {
   from {
-    right: -100vw;
+    width: 0;
   }
   to {
-    right: 0;
+    width: 80vw;
   }
 }
 .welcome-animation-left div {
@@ -275,10 +274,10 @@
 }
 @keyframes welcome-slide-right {
   from {
-    left: -100vw;
+    width: 0;
   }
   to {
-    left: 0;
+    width: 80vw;
   }
 }
 .welcome-animation-right div {
