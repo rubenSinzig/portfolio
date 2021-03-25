@@ -323,12 +323,15 @@
 .skill {
   width: 40vw;
   height: 40vh;
-  border: 1px solid wheat;
+  border: 1.5px solid wheat;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(39, 39, 39);
   transition: 1s;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 8px 0 0 8px;
 }
 .html-about,
 .css-about,
@@ -340,6 +343,7 @@
   display: flex;
   justify-content: space-between;
   padding: 3px;
+  border-bottom-left-radius: 8px;
 }
 .fa-html5,
 .fa-css3-alt,
