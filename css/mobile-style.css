@@ -380,7 +380,7 @@ h2 {
 /* projects */
 .projects {
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
   background-color: rgb(39, 39, 39);
   display: flex;
   flex-direction: column;
@@ -389,11 +389,18 @@ h2 {
   border: 1px dashed red;
   width: 100vw;
   height: 25vh;
+  display: flex;
+  align-items: center;
 }
 .project a img {
   border: 2px dashed greenyellow;
-  width: auto;
-  height: 100%;
+  width: 50vw;
+  height: auto;
+}
+.project div {
+  border: 2px dashed burlywood;
+  width: 50vw;
+  height: auto;
 }
 
 /* contact */
