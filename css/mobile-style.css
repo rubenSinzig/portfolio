@@ -311,11 +311,14 @@
 .about-me {
   width: 100vw;
   height: 95vh;
-  background-color: rgb(79, 79, 79);
+  background-color: rgb(69, 69, 69);
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
+  padding-top: 3rem;
+  border-top: 1px solid wheat;
+  border-bottom: 1px solid wheat;
 }
 .skill {
   width: 40vw;
@@ -323,6 +326,7 @@
   border: 1px solid wheat;
   display: flex;
   background-color: rgb(39, 39, 39);
+  transition: 1s;
 }
 .html-about,
 .css-about,
@@ -354,14 +358,16 @@
 .projects {
   width: 100vw;
   height: 95vh;
-  background-color: rgb(119, 119, 119);
+  background-color: rgb(39, 39, 39);
 }
 
 /* contact */
 .contact {
   width: 100vw;
   height: 90vh;
-  background-color: rgb(159, 159, 159);
+  background-color: rgb(69, 69, 69);
+  border-top: 1px solid wheat;
+  border-bottom: 1px solid wheat;
 }
 
 /* footer */
