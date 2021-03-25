@@ -382,6 +382,18 @@ h2 {
   width: 100vw;
   height: 95vh;
   background-color: rgb(39, 39, 39);
+  display: flex;
+  flex-direction: column;
+}
+.project {
+  border: 1px dashed red;
+  width: 100vw;
+  height: 25vh;
+}
+.project a img {
+  border: 2px dashed greenyellow;
+  width: auto;
+  height: 100%;
 }
 
 /* contact */
