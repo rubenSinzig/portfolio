@@ -368,13 +368,13 @@
 }
 h2 {
   color: wheat;
-  padding: 0.9rem 0;
   text-decoration: overline;
 }
 .about-me p {
   color: wheat;
   font-size: 0.85rem;
-  padding-bottom: 1rem;
+  padding: 0 0.5rem 1rem 0;
+  text-align: center;
 }
 
 /* projects */
@@ -384,23 +384,40 @@ h2 {
   background-color: rgb(39, 39, 39);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .project {
-  border: 1px dashed red;
   width: 100vw;
   height: 25vh;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 .project a img {
-  border: 2px dashed greenyellow;
-  width: 50vw;
+  width: 45vw;
   height: auto;
 }
 .project div {
-  border: 2px dashed burlywood;
-  width: 50vw;
-  height: auto;
+  width: 45vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.project p {
+  text-align: center;
+  font-size: 1rem;
+  color: wheat;
+}
+h3 {
+  color: wheat;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.line {
+  width: 85vw;
+  border-bottom: 1px solid wheat;
 }
 
 /* contact */
