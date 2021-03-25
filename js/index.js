@@ -20,9 +20,9 @@ document.querySelector(".left-top").addEventListener("click", () => {
   clicked = !clicked;
   if (clicked) {
     document.querySelector(".x-top").style.cssText =
-      "position: relative; top: 0.45rem; transform: rotate(-0.125turn); transition: 1s;";
+      "position: relative; top: 0.45rem; transform: rotate(-0.125turn);";
     document.querySelector(".x-bottom").style.cssText =
-      "position: relative; transform: rotate(0.125turn); transition: 1s;";
+      "position: relative; transform: rotate(0.125turn);";
     document.querySelector(".top-left").style.cssText =
       "position: relative; top: 12rem; left: 5.8rem; transform: scale(1.8); box-shadow: 0 0 0.5rem wheat;";
   } else {
@@ -36,9 +36,9 @@ document.querySelector(".right-top").addEventListener("click", () => {
   clicked = !clicked;
   if (clicked) {
     document.querySelector(".xx-top").style.cssText =
-      "position: relative; top: 0.45rem; transform: rotate(-0.125turn); transition: 1s;";
+      "position: relative; top: 0.45rem; transform: rotate(-0.125turn);";
     document.querySelector(".xx-bottom").style.cssText =
-      "position: relative; transform: rotate(0.125turn); transition: 1s;";
+      "position: relative; transform: rotate(0.125turn);";
     document.querySelector(".top-right").style.cssText =
       "position: relative; top: 12rem; left: -5.8rem; transform: scale(1.8); box-shadow: 0 0 0.5rem wheat;";
   } else {
@@ -52,9 +52,9 @@ document.querySelector(".left-bottom").addEventListener("click", () => {
   clicked = !clicked;
   if (clicked) {
     document.querySelector(".xxx-top").style.cssText =
-      "position: relative; top: 0.45rem; transform: rotate(-0.125turn); transition: 1s;";
+      "position: relative; top: 0.45rem; transform: rotate(-0.125turn);";
     document.querySelector(".xxx-bottom").style.cssText =
-      "position: relative; transform: rotate(0.125turn); transition: 1s;";
+      "position: relative; transform: rotate(0.125turn);";
     document.querySelector(".bottom-left").style.cssText =
       "position: relative; top: -11rem; left: 5.8rem; transform: scale(1.8); box-shadow: 0 0 0.5rem wheat;";
   } else {
@@ -68,9 +68,9 @@ document.querySelector(".right-bottom").addEventListener("click", () => {
   clicked = !clicked;
   if (clicked) {
     document.querySelector(".xxxx-top").style.cssText =
-      "position: relative; top: 0.45rem; transform: rotate(-0.125turn); transition: 1s;";
+      "position: relative; top: 0.45rem; transform: rotate(-0.125turn);";
     document.querySelector(".xxxx-bottom").style.cssText =
-      "position: relative; transform: rotate(0.125turn); transition: 1s;";
+      "position: relative; transform: rotate(0.125turn);";
     document.querySelector(".bottom-right").style.cssText =
       "position: relative; top: -11rem; left: -5.8rem; transform: scale(1.8); box-shadow: 0 0 0.5rem wheat;";
   } else {
