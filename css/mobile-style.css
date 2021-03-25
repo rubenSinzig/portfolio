@@ -321,12 +321,13 @@
   border-bottom: 1px solid wheat;
 }
 .skill {
-  width: 40vw;
-  height: 40vh;
+  width: 85%;
+  height: 90%;
   border: 1.5px solid wheat;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background-color: rgb(39, 39, 39);
   transition: 0.5s;
   border-bottom-left-radius: 8px;
@@ -349,7 +350,7 @@
 .fa-css3-alt,
 .fa-js-square,
 .fa-layer-group {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .zoom {
   width: 1.5rem;
@@ -370,9 +371,10 @@ h2 {
   padding: 0.9rem 0;
   text-decoration: overline;
 }
-p {
+.about-me p {
   color: wheat;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
+  padding-bottom: 1rem;
 }
 
 /* projects */
