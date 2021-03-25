@@ -51,11 +51,11 @@
 }
 .burger-bottom {
   position: absolute;
-  top: 1.85rem;
+  top: 40%;
 }
 .burger-top {
   position: absolute;
-  top: 1.35rem;
+  top: 60%;
 }
 .nav {
   width: 100vw;
@@ -316,20 +316,17 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   align-items: center;
-  padding-top: 3rem;
   border-top: 1px solid wheat;
   border-bottom: 1px solid wheat;
 }
 .skill {
-  width: 85%;
-  height: 90%;
+  width: 45vw;
+  height: 40vh;
   border: 1.5px solid wheat;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   background-color: rgb(39, 39, 39);
-  transition: 0.5s;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 8px 0 0 8px;
@@ -343,6 +340,7 @@
   background-color: wheat;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 3px;
   border-bottom-left-radius: 8px;
 }
@@ -369,10 +367,12 @@
 h2 {
   color: wheat;
   text-decoration: overline;
+  padding: 1rem 0;
+  font-size: 1.6rem;
 }
 .about-me p {
   color: wheat;
-  font-size: 0.85rem;
+  font-size: 1rem;
   padding: 0 0.5rem 1rem 0;
   text-align: center;
 }
@@ -435,3 +435,79 @@ h3 {
   height: 6vh;
   background-color: rgb(39, 39, 39);
 }
+
+/* Resposive for hight */
+@media only screen and (max-height: 700px) {
+  .about-me p {
+    font-size: 0.85rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js-square,
+  .fa-layer-group {
+    font-size: 1.1rem;
+  }
+  @keyframes move-down {
+    0% {
+      top: 92vh;
+    }
+    25% {
+      top: 92.5vh;
+    }
+    50% {
+      top: 93vh;
+    }
+    75% {
+      top: 92.5vh;
+    }
+    100% {
+      top: 92vh;
+    }
+  }
+}
+@media only screen and (max-height: 660px) {
+  .about-me p {
+    font-size: 0.75rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+  }
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js-square,
+  .fa-layer-group {
+    font-size: 1rem;
+  }
+  .logo-left {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .logo-left a {
+    font-size: 1.5rem;
+  }
+  .logo {
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+  }
+  @keyframes move-down {
+    0% {
+      top: 92vh;
+    }
+    25% {
+      top: 92.5vh;
+    }
+    50% {
+      top: 93vh;
+    }
+    75% {
+      top: 92.5vh;
+    }
+    100% {
+      top: 92vh;
+    }
+  }
+} ;
