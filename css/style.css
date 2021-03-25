@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  font-size: 16px;
+}
 @font-face {
   font-family: "Nova Oval";
   src: url(../fonts/NovaOval-Regular.ttf);
