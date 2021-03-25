@@ -427,8 +427,16 @@ h3 {
   background-color: rgb(69, 69, 69);
   border-top: 1px solid wheat;
   border-bottom: 1px solid wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
+.form {
+  width: 80vw;
+  height: 50vh;
+  border: 2px dashed black;
+}
 /* footer */
 .footer {
   width: 100vw;
