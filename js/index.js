@@ -81,3 +81,7 @@ document.querySelector(".right-bottom").addEventListener("click", () => {
     document.querySelector(".bottom-right").style.cssText = "position: static;";
   }
 });
+
+// footer year
+let year = new Date().getFullYear();
+document.querySelector(".year").innerHTML = year;

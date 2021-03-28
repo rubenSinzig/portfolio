@@ -506,6 +506,11 @@ legend {
   width: 100vw;
   height: 6vh;
   background-color: rgb(39, 39, 39);
+  display: flex;
+  align-items: center;
+  color: wheat;
+  padding-left: 5px;
+  font-size: 1rem;
 }
 
 /* Resposive for hight */
