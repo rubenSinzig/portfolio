@@ -21,79 +21,62 @@
 }
 .logo-left a {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2.75rem;
 }
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3.8rem;
-  height: 3.8rem;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
   background-color: rgb(36, 36, 36);
   font-family: "Nova Oval";
   color: #7209b7;
-  text-shadow: 2.4px 2.4px 7px #7209b7;
+  text-shadow: 2px 2px 6px #7209b7;
 }
 .hamburger {
   display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 5rem;
-  height: 3rem;
-}
-.hamburger div {
-  width: 3rem;
-  height: 0.3rem;
-  background-color: rgb(36, 36, 36);
-  border-radius: 5rem;
-}
-.burger-bottom {
-  position: absolute;
-  top: 40%;
-}
-.burger-top {
-  position: absolute;
-  top: 60%;
-}
-.nav {
-  width: 75%;
-  height: 100%;
-  display: flex;
 }
 .nav ul {
-  width: 100vw;
-  height: 20vh;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 .nav ul a {
+  height: 4vh;
+  list-style: none;
   text-decoration: none;
   color: rgb(252, 242, 225);
   border-bottom-left-radius: 10px;
-  font-size: 2rem;
-  position: relative;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .nav ul:nth-child(n) a:nth-child(1) {
   background-color: #b5179e;
+  width: 65vw;
 }
 .nav ul:nth-child(n) a:nth-child(2) {
   background-color: #7209b7;
+  width: 50vw;
 }
 .nav ul:nth-child(n) a:nth-child(3) {
   background-color: #560bad;
+  width: 35vw;
 }
 .nav ul:nth-child(n) a:nth-child(4) {
   background-color: #480ca8;
+  width: 20vw;
 }
 .nav ul a li {
-  width: 100vw;
-  height: 5vh;
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
+  padding: 0.5rem 0 0 1rem;
+  transition: 0.5s;
+  height: 4vh;
+}
+.nav ul a li:hover {
+  background-color: rgba(245, 222, 179, 0.467);
+  border-bottom-left-radius: 10px;
 }
 
 /* welcome */
@@ -109,9 +92,9 @@
 }
 .welcome > p {
   padding-bottom: 0.3rem;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   position: relative;
-  top: 2.75rem;
+  top: 2.2rem;
 }
 .junior {
   font-style: italic;
@@ -131,19 +114,19 @@
 }
 @keyframes move-down {
   0% {
-    top: 93vh;
+    top: 90vh;
   }
   25% {
-    top: 93.5vh;
+    top: 90.5vh;
   }
   50% {
-    top: 94vh;
+    top: 91vh;
   }
   75% {
-    top: 93.5vh;
+    top: 90.5vh;
   }
   100% {
-    top: 93vh;
+    top: 90vh;
   }
 }
 .welcome-button div {
@@ -182,7 +165,7 @@
 }
 .welcome-animation-left {
   position: absolute;
-  top: 60vh;
+  top: 65vh;
   right: 0;
   width: 80vw;
   height: 15vh;
@@ -240,7 +223,7 @@
 }
 .welcome-animation-right {
   position: absolute;
-  top: 30vh;
+  top: 25vh;
   left: 0;
   width: 80vw;
   height: 15vh;
@@ -299,7 +282,7 @@
 /* about-me */
 .about-me {
   width: 100vw;
-  height: 95vh;
+  height: 92vh;
   background-color: rgb(69, 69, 69);
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -309,7 +292,7 @@
   border-bottom: 1px solid wheat;
 }
 .skill {
-  width: 35vw;
+  width: 45vw;
   height: 40vh;
   border: 1.5px solid wheat;
   display: flex;
@@ -325,12 +308,12 @@
 .js-about,
 .rest-about {
   width: 100%;
-  height: 10%;
+  height: 15%;
   background-color: wheat;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px;
+  padding: 0.75rem;
   border-bottom-left-radius: 8px;
 }
 .fa-html5,
@@ -348,7 +331,7 @@
   flex-direction: column;
 }
 .zoom div {
-  width: 1.75rem;
+  width: 2.25rem;
   height: 0.3rem;
   background-color: rgb(39, 39, 39);
   border-radius: 2rem;
@@ -361,7 +344,7 @@ h2 {
 }
 .about-me p {
   color: wheat;
-  font-size: 1.75rem;
+  font-size: 1.8rem;
   padding: 0 0.5rem 1rem 0;
   text-align: center;
 }
@@ -369,7 +352,7 @@ h2 {
 /* projects */
 .projects {
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
   background-color: rgb(39, 39, 39);
   display: flex;
   flex-direction: column;
@@ -377,13 +360,13 @@ h2 {
 }
 .project {
   width: 100vw;
-  height: 25vh;
+  height: 25%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 .project a img {
-  width: 45vw;
+  width: 20vw;
   height: auto;
 }
 .project div {
@@ -417,7 +400,6 @@ h3 {
   border-top: 1px solid wheat;
   border-bottom: 1px solid wheat;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -427,8 +409,8 @@ h3 {
   justify-content: center;
 }
 fieldset {
-  width: 50vw;
-  height: 75vh;
+  width: 35vw;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -448,7 +430,7 @@ textarea:focus {
 input,
 textarea {
   height: 3.5rem;
-  width: 35rem;
+  width: 80%;
   background-color: rgb(39, 39, 39);
   border-radius: 0.3rem;
   border: none;
@@ -456,7 +438,7 @@ textarea {
   padding: 5px;
 }
 textarea {
-  height: 20rem;
+  height: 10rem;
 }
 legend {
   height: 1rem;
@@ -480,15 +462,26 @@ legend {
   border: 1px solid wheat;
 }
 .contact-icon {
-  width: 55vw;
+  width: 15%;
+  height: 60%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: space-between;
   font-size: 3rem;
 }
-.contact-icon a {
+.contact-icon a i {
   text-decoration: none;
   color: wheat;
+  transition: 0.2s;
+}
+.fa-stack-overflow:hover {
+  color: #f4824a;
+}
+.fa-linkedin:hover {
+  color: #0966c2;
+}
+.fa-github-square:hover {
+  color: #24292e;
 }
 
 /* footer */
@@ -500,5 +493,5 @@ legend {
   align-items: center;
   color: wheat;
   padding-left: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
