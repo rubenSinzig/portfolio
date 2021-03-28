@@ -433,7 +433,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .form {
   display: flex;
@@ -488,6 +488,17 @@ legend {
   width: 7rem;
   padding-top: 0.6rem;
   border: 1px solid wheat;
+}
+.contact-icon {
+  width: 55vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+.contact-icon a {
+  text-decoration: none;
+  color: wheat;
 }
 
 /* footer */
