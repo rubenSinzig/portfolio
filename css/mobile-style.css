@@ -461,11 +461,12 @@ textarea:focus {
 }
 input,
 textarea {
+  height: 2.5rem;
   background-color: rgb(39, 39, 39);
   border-radius: 0.3rem;
   border: none;
-  padding: 7px;
   color: wheat;
+  padding: 5px;
 }
 legend {
   height: 1rem;
@@ -477,6 +478,16 @@ legend {
   border-radius: 5px;
   border-bottom-left-radius: 0.8rem;
   box-shadow: 4px 4px 8px rgb(39, 39, 39);
+}
+.contact-button {
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-button > input {
+  width: 7rem;
+  padding-top: 0.6rem;
+  border: 1px solid wheat;
 }
 
 /* footer */
