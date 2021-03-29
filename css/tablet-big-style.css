@@ -496,6 +496,7 @@ legend {
 .contact-icon {
   width: 55vw;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: 3rem;
